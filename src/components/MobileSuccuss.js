@@ -1,14 +1,14 @@
 import React from 'react';
 import icon from '../assets/images/icon-success.svg';
 
-function MobileSuccuss({ onDismiss }) {
+function MobileSuccuss({ onDismiss, emailSpan }) {
   return (
     <div className="mobileSuccuss">
       <img src={icon} alt="" />
       <h2 className="succussTitle">Thanks for subscribing!</h2>
       <p className="succussText">
-        A confirmation email has been sent to <span>ash@loremcompany.com</span>.
-        Please open it and click the button inside to confirm your subscription.
+        A confirmation email has been sent to <span> {emailSpan} </span>. Please
+        open it and click the button inside to confirm your subscription.
       </p>
       <button
         className="succussBtn"

@@ -5,6 +5,7 @@ import MobileSuccess from './components/MobileSuccuss';
 function App() {
   const [isFormSubmitted, setIsFormSubmitted] = useState(false);
   const [emailError, setEmailError] = useState('');
+  const [emailSpan, setEmailSpan] = useState('');
 
   const validateEmail = (input) => {
     if (!input) {
@@ -19,6 +20,7 @@ function App() {
   const handleSubmit = (email) => {
     const error = validateEmail(email);
     setEmailError(error);
+    setEmailSpan(email);
 
     if (!error) {
       setIsFormSubmitted(true);
@@ -32,7 +34,7 @@ function App() {
   return (
     <div>
       {isFormSubmitted ? (
-        <MobileSuccess onDismiss={handleDismiss} />
+        <MobileSuccess onDismiss={handleDismiss} emailSpan={emailSpan} />
       ) : (
         <Layout onSubmit={handleSubmit} emailError={emailError} />
       )}
