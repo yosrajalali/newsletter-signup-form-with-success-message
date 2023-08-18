@@ -8,8 +8,8 @@ This is a solution to the [Newsletter sign-up form with success message challeng
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-newsletter-signup-form-with-success-message-mThI2O2NER](https://www.frontendmentor.io/solutions/responsive-newsletter-signup-form-with-success-message-mThI2O2NER)
+- Live Site URL: [https://yosrajalali.github.io/newsletter-signup-form-with-success-message/](https://yosrajalali.github.io/newsletter-signup-form-with-success-message/)
 
 ## Table of contents
 
